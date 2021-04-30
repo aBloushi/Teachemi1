@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".elementInfo"
+    android:background="#cfd4d1">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="273dp"
+        android:layout_height="222dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.084"
+        tools:srcCompat="@tools:sample/avatars" />
+
+
+    <TextView
+        android:id="@+id/atomic_we"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Atomic Mass:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <TextView
+        android:id="@+id/comm"
+        android:layout_width="171dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Common in:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.933"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/symb5"
+        android:layout_width="171dp"
+        android:layout_height="55dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Common in:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.906" />
+
+    <TextView
+        android:id="@+id/atomic_num"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Atomic Number:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+
+    <TextView
+        android:id="@+id/name5"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text=" Name: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <TextView
+        android:id="@+id/symb"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="symbol:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/symb4"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Atomic Mass:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.657" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text=" Name: "
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.871"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.491" />
+
+    <TextView
+        android:id="@+id/symb3"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="symbol:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.575" />
+
+    <TextView
+        android:id="@+id/symb2"
+        android:layout_width="154dp"
+        android:layout_height="45dp"
+        android:background="@drawable/border"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Atomic Number:"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.739" />
+</androidx.constraintlayout.widget.ConstraintLayout>
